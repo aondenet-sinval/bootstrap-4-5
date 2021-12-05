@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>	
+			  <meta charset="utf-8">
+			  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			  <!-- Bootastrap -->
+			  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+			  <script src="./jquery/jquery-3.6.0.min.js"></script>
+			  <script src="./node_modules/popper.js/dist/popper.js"></script>
+			  <script src="./js/bootstrap.min.js"></script>
+			  <!-- Bootastrap personalizando-->
+			  <link rel="stylesheet" href="./css/style.css" />
+			  <title>Bootstrap Tabelas!</title>
+	</head>
+	<body>
+		<div class="container">
+		<!-- Navbar start-->
+		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #1376D5;">
+				  <a class="navbar-brand" href="#">Navbar com texto</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="textoNavbar">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="tables.html">Tables</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="imagens.html">Images</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="jumbotron.html">Jumbotron</a>
+				      </li>				      
+				    </ul>
+				    <span class="navbar-text">
+				      Texto navbar com um elemento inline
+				    </span>
+				  </div>
+		</nav>
+		<!-- Navbar stop -->
+<!-- start dark stripped  table	-->
+		<div class="container">
+		  <h2>Dark Striped Table</h2>
+		  <p>Combine .table-dark and .table-striped to create a dark, striped table:</p>            
+		  <table class="table table-dark table-striped">
+		    <thead>
+		      <tr>
+		        <th>Nome</th>
+		        <th>Sobrenome</th>
+		        <th>Email</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <td>João</td>
+		        <td>Silverino</td>
+		        <td>john@exemplo.com</td>
+		      </tr>
+		      <tr>
+		        <td>Ana</td>
+		        <td>Santaniana</td>
+		        <td>anes@exemplo.com</td>
+		      </tr>
+		      <tr>
+		        <td>Gilberto</td>
+		        <td>Silver</td>
+		        <td>gsilver@exemplo.com</td>
+		      </tr>
+		    </tbody>
+		  </table>
+		  <h2>Bordered Table</h2>
+		  <p>Add .table-bordered:</p>            
+		  <table class="table table-bordered">
+		    <thead>
+		      <tr>
+		        <th>Nome</th>
+		        <th>Sobrenome</th>
+		        <th>Email</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <td>João</td>
+		        <td>Silverino</td>
+		        <td>john@exemplo.com</td>
+		      </tr>
+		      <tr>
+		        <td>Ana</td>
+		        <td>Santaniana</td>
+		        <td>anes@exemplo.com</td>
+		      </tr>
+		      <tr>
+		        <td>Gilberto</td>
+		        <td>Silver</td>
+		        <td>gsilver@exemplo.com</td>
+		      </tr>
+		    </tbody>
+		  </table>
+		  <h2>Hover Rows</h2>
+		  <p>Add .table-hover:</p>            
+		  <table class="table table-bordered table-hover">
+		    <thead>
+		      <tr>
+		        <th>Nome</th>
+		        <th>Sobrenome</th>
+		        <th>Email</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <td>João</td>
+		        <td>Silverino</td>
+		        <td>john@exemplo.com</td>
+		      </tr>
+		      <tr>
+		        <td>Ana</td>
+		        <td>Santaniana</td>
+		        <td>anes@exemplo.com</td>
+		      </tr>
+		      <tr>
+		        <td>Gilberto</td>
+		        <td>Silver</td>
+		        <td>gsilver@exemplo.com</td>
+		      </tr>
+		    </tbody>
+		  </table>
+		  <h2>Hoverable Dark Rows</h2>
+		  <p>Add .table-hover:</p>            
+		  <table class="table table-bordered table-hover table-dark">
+		    <thead>
+		      <tr>
+		        <th>Nome</th>
+		        <th>Sobrenome</th>
+		        <th>Email</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <td>João</td>
+		        <td>Silverino</td>
+		        <td>john@exemplo.com</td>
+		      </tr>
+		      <tr>
+		        <td>Ana</td>
+		        <td>Santaniana</td>
+		        <td>anes@exemplo.com</td>
+		      </tr>
+		      <tr>
+		        <td>Gilberto</td>
+		        <td>Silver</td>
+		        <td>gsilver@exemplo.com</td>
+		      </tr>
+		    </tbody>
+		  </table>
+		  <h2>Border Less</h2>
+		  <p>Remove borders .table-borderless:</p>            
+		  <table class="table table-bordered table-borderless">
+		    <thead>
+		      <tr>
+		        <th>Nome</th>
+		        <th>Sobrenome</th>
+		        <th>Email</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <td>João</td>
+		        <td>Silverino</td>
+		        <td>john@exemplo.com</td>
+		      </tr>
+		      <tr>
+		        <td>Ana</td>
+		        <td>Santaniana</td>
+		        <td>anes@exemplo.com</td>
+		      </tr>
+		      <tr>
+		        <td>Gilberto</td>
+		        <td>Silver</td>
+		        <td>gsilver@exemplo.com</td>
+		      </tr>
+		    </tbody>
+		  </table>
+		  <h2>Table Head Colors</h2>
+		  <p>.thead-dark .thead-light</p>            
+		  <table class="table table-bordered">
+		    <thead class="thead-dark">
+		      <tr>
+		        <th>Nome</th>
+		        <th>Sobrenome</th>
+		        <th>Email</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <td>João</td>
+		        <td>Silverino</td>
+		        <td>john@exemplo.com</td>
+		      </tr>
+		      <tr>
+		        <td>Ana</td>
+		        <td>Santaniana</td>
+		        <td>anes@exemplo.com</td>
+		      </tr>
+		      <tr>
+		        <td>Gilberto</td>
+		        <td>Silver</td>
+		        <td>gsilver@exemplo.com</td>
+		      </tr>
+		    </tbody>
+		  </table>
+		  <table class="table table-bordered">
+		    <thead class="thead-light">
+		      <tr>
+		        <th>Nome</th>
+		        <th>Sobrenome</th>
+		        <th>Email</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <td>João</td>
+		        <td>Silverino</td>
+		        <td>john@exemplo.com</td>
+		      </tr>
+		      <tr>
+		        <td>Ana</td>
+		        <td>Santaniana</td>
+		        <td>anes@exemplo.com</td>
+		      </tr>
+		      <tr>
+		        <td>Gilberto</td>
+		        <td>Silver</td>
+		        <td>gsilver@exemplo.com</td>
+		      </tr>
+		    </tbody>
+		  </table>
+		  <h2>Small table</h2>
+		  <p>.table-sm</p>            
+		  <table class="table table-sm">
+		    <thead class="thead-dark">
+		      <tr>
+		        <th>Nome</th>
+		        <th>Sobrenome</th>
+		        <th>Email</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <td>João</td>
+		        <td>Silverino</td>
+		        <td>john@exemplo.com</td>
+		      </tr>
+		      <tr>
+		        <td>Ana</td>
+		        <td>Santaniana</td>
+		        <td>anes@exemplo.com</td>
+		      </tr>
+		      <tr>
+		        <td>Gilberto</td>
+		        <td>Silver</td>
+		        <td>gsilver@exemplo.com</td>
+		      </tr>
+		    </tbody>
+		  </table>
+		  <h2>Responsive table</h2>
+		  <p>.table-responsive</p>  
+		  <div class="table-responsive">          
+		  <table class="table table-sm">
+		    <thead class="thead-dark">
+		      <tr>
+		        <th>Nome</th>
+		        <th>Sobrenome</th>
+		        <th>Email</th>
+		        <th>idade</th>
+		        <th>Rua</th>
+		        <th>Cidade</th>
+		        <th>Estado</th>
+		        <th>País</th>
+		        <th>Telefone</th>
+		        <th>Solteiro/Casado</th>
+		        <th>Escolaridade</th>
+		        <th>Experiência</th>
+		        <th>Filhos</th>
+		        <th>Moradia</th>
+		        <th>Idioma</th>	
+		        <th>Raça</th>        		        		        
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <td>João</td>
+		        <td>Silverino</td>
+		        <td>john@exemplo.com</td>
+		        <td>34</td>
+		        <td>Penedo</td>
+		        <td>Joinvile</td>
+		        <td>Santa Catarina</td>
+		        <td>Brasil</td>
+		        <td>(00)2121-2121</td>		        
+		        <td>Solteiro</td>
+		        <td>Completo</td>
+		        <td>7 </td>		        
+		        <td>0 </td>		        
+		        <td>Sim </td>		        
+		        <td>Português </td>		        
+		        <td>Parda </td>		        
+		      </tr>
+		    </tbody>
+		  </table>
+		  <pre>
+			Class                   Screen width
+			.table-responsive-sm 	< 576px
+			.table-responsive-md 	< 768px
+			.table-responsive-lg 	< 992px
+			.table-responsive-xl    < 1200px		  		  
+		  </pre>
+		  <h2>Responsive table</h2>
+		  <p>.table-responsive-xl</p>  
+		  <div class="table-responsive-xl">          
+		  <table class="table">
+		    <thead class="thead-dark">
+		      <tr>
+		        <th>Nome</th>
+		        <th>Sobrenome</th>
+		        <th>Email</th>
+		        <th>idade</th>
+		        <th>Rua</th>
+		        <th>Cidade</th>
+		        <th>Estado</th>
+		        <th>País</th>
+		        <th>Telefone</th>
+		        <th>Solteiro/Casado</th>
+		        <th>Escolaridade</th>
+		        <th>Experiência</th>
+		        <th>Filhos</th>
+		        <th>Moradia</th>
+		        <th>Idioma</th>	
+		        <th>Raça</th>        		        		        
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <td>João</td>
+		        <td>Silverino</td>
+		        <td>john@exemplo.com</td>
+		        <td>34</td>
+		        <td>Penedo</td>
+		        <td>Joinvile</td>
+		        <td>Santa Catarina</td>
+		        <td>Brasil</td>
+		        <td>(00)2121-2121</td>		        
+		        <td>Solteiro</td>
+		        <td>Completo</td>
+		        <td>7 </td>		        
+		        <td>0 </td>		        
+		        <td>Sim </td>		        
+		        <td>Português </td>		        
+		        <td>Parda </td>		        
+		      </tr>
+		    </tbody>
+		  </table>
+		  <h2>Responsive table</h2>
+		  <p>.table-responsive-sm</p>  
+		  <div class="table-responsive-sm">          
+		  <table class="table">
+		    <thead class="thead-dark">
+		      <tr>
+		        <th>Nome</th>
+		        <th>Sobrenome</th>
+		        <th>Email</th>
+		        <th>idade</th>
+		        <th>Rua</th>
+		        <th>Cidade</th>
+		        <th>Estado</th>
+		        <th>País</th>
+		        <th>Telefone</th>
+		        <th>Solteiro/Casado</th>
+		        <th>Escolaridade</th>
+		        <th>Experiência</th>
+		        <th>Filhos</th>
+		        <th>Moradia</th>
+		        <th>Idioma</th>	
+		        <th>Raça</th>        		        		        
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <td>João</td>
+		        <td>Silverino</td>
+		        <td>john@exemplo.com</td>
+		        <td>34</td>
+		        <td>Penedo</td>
+		        <td>Joinvile</td>
+		        <td>Santa Catarina</td>
+		        <td>Brasil</td>
+		        <td>(00)2121-2121</td>		        
+		        <td>Solteiro</td>
+		        <td>Completo</td>
+		        <td>7 </td>		        
+		        <td>0 </td>		        
+		        <td>Sim </td>		        
+		        <td>Português </td>		        
+		        <td>Parda </td>		        
+		      </tr>
+		    </tbody>
+		  </table>
+		  </div>
+		</div>
+
+	</body>
+</html>

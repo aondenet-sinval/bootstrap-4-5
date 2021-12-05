@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>	
+			  <meta charset="utf-8">
+			  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			  <!-- Bootastrap -->
+			  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+			  <script src="./jquery/jquery-3.6.0.min.js"></script>
+			  <script src="./node_modules/popper.js/dist/popper.js"></script>
+			  <script src="./node_modules/popper.js/dist/popper.min.js"></script>
+			  <script src="./js/bootstrap.min.js"></script>
+<!--	Descomente se for testar o dropdown group		  -->
+<!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>-->
+<!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
+			  <!-- Bootastrap personalizando-->
+			  <link rel="stylesheet" href="./css/style.css" />
+			  <title>Buttons e Buttons Groups!</title>
+	</head>
+	<body>
+		<div class="container">
+		<!-- Navbar start-->
+		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #1376D5;">
+				  <a class="navbar-brand" href="#">Navbar com texto</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="textoNavbar">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="tables.html">Tables</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="imagens.html">Images</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="jumbotron.html">Jumbotron</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="buttons-groups.html">Buttons</a>
+				      </li>				      
+				    </ul>
+				    <span class="navbar-text">
+				      Texto navbar com um elemento inline
+				    </span>
+				  </div>
+		</nav>
+		<!-- Navbar stop -->
+		<div class="container">
+			<h1>Estilos diferentes de botões providos pelo Bootstrap 4:</h1>
+				<button type="button" class="btn">Basic</button>
+				<button type="button" class="btn btn-primary">Primary</button>
+				<button type="button" class="btn btn-secondary">Secondary</button>
+				<button type="button" class="btn btn-success">Success</button>
+				<button type="button" class="btn btn-info">Info</button>
+				<button type="button" class="btn btn-warning">Warning</button>
+				<button type="button" class="btn btn-danger">Danger</button>
+				<button type="button" class="btn btn-dark">Dark</button>
+				<button type="button" class="btn btn-light">Light</button>
+				<button type="button" class="btn btn-link">Link</button>
+			<h1>Estilos diferentes de bordas:</h1>
+				<button type="button" class="btn btn-outline-primary">Primary</button>
+				<button type="button" class="btn btn-outline-secondary">Secondary</button>
+				<button type="button" class="btn btn-outline-success">Success</button>
+				<button type="button" class="btn btn-outline-info">Info</button>
+				<button type="button" class="btn btn-outline-warning">Warning</button>
+				<button type="button" class="btn btn-outline-danger">Danger</button>
+				<button type="button" class="btn btn-outline-dark">Dark</button>
+				<button type="button" class="btn btn-outline-light text-dark">Light</button>		 
+			<h1>Diferentes tamanhos de botões:</h1>
+				<p>Usando as classes btn-lg e btn-sm</p>
+				<button type="button" class="btn btn-primary btn-lg">Largo</button>
+				<button type="button" class="btn btn-primary">Padrão</button>
+				<button type="button" class="btn btn-primary btn-sm">mínima</button>
+		</div>
+		<div class="container">
+		  <h2>Block Level Buttons</h2>
+		  <button type="button" class="btn btn-primary btn-block">Button 1</button>
+		  <button type="button" class="btn btn-success btn-block">Button 2</button>
+		  <br>
+		  
+		  <h2>Large Block Level Buttons</h2>
+		  <button type="button" class="btn btn-primary btn-lg btn-block">Button 1</button>
+		  <button type="button" class="btn btn-success btn-lg btn-block">Button 2</button>
+		  <br>
+		  
+		  <h2>Small Block Level Buttons</h2>
+		  <button type="button" class="btn btn-primary btn-sm btn-block">Button 1</button>
+		  <button type="button" class="btn btn-success btn-sm btn-block">Button 2</button>
+		</div>
+		<div class="container">
+		<h1>Botões clicável e não-clicável</h1> 
+			<button type="button" class="btn btn-primary active">Active Primary</button>
+			<button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
+			<a href="#" class="btn btn-primary disabled">Disabled Link</a> 		
+		</div>
+		<div class="container">
+		<h1>Spinners:</h1>
+			<button class="btn btn-primary">
+			  <span class="spinner-border spinner-border-sm"></span>
+			</button>
+			
+			<button class="btn btn-primary">
+			  <span class="spinner-border spinner-border-sm"></span>
+			  Loading..
+			</button>
+			
+			<button class="btn btn-primary" disabled>
+			  <span class="spinner-border spinner-border-sm"></span>
+			  Loading..
+			</button>
+			
+			<button class="btn btn-primary" disabled>
+			  <span class="spinner-grow spinner-grow-sm"></span>
+			  Loading..
+			</button>
+		</div>
+		<div class="container">
+			<h1>Grupo de botões:</h1>
+			<p>Podemos agrupar botões com a classe .btn-group</p>
+				<div class="btn-group">
+				  <button type="button" class="btn btn-primary">Apple</button>
+				  <button type="button" class="btn btn-primary">Samsung</button>
+				  <button type="button" class="btn btn-primary">Sony</button>
+				</div>
+			<p>Ou verticalmente com .btn-group-vertical</p>
+				<div class="btn-group-vertical">
+				  <button type="button" class="btn btn-primary">Apple</button>
+				  <button type="button" class="btn btn-primary">Samsung</button>
+				  <button type="button" class="btn btn-primary">Sony</button>
+				</div>  
+			<p>Dropdown Menu:</p>
+				 <div class="btn-group">
+					  <button type="button" class="btn btn-primary">Apple</button>
+					  <button type="button" class="btn btn-primary">Samsung</button>
+					  <div class="btn-group">
+					    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+					       Sony
+					    </button>
+					    <div class="dropdown-menu">
+					      <a class="dropdown-item" href="#">Tablet</a>
+					      <a class="dropdown-item" href="#">Smartphone</a>
+					    </div>
+					  </div>
+					</div> 
+		</div>
+		<div class="container">
+		Lorem ipsum dolor sit amet, consecteteur adipiscing elit neque parturient eleifend etiam metus vehicula. Nascetur etiam quisque interdum donec id ridiculus natoque, cursus sem aliquam mi, nam ullamcorper rhoncus suspendisse. Arcu facilisi cum ad urna lorem hac lobortis magna. Ve consectetuer ligula, etiam sodales, eni tristique maecenas, massa. Sapien, sodales diam dolor. Cubilia. Fusce nisi purus, eleifend, sed litora a, dictumst. Auctor at tempor orci, duis. Quis nostra est, tortor, mi, ligula sollicitudin ridiculus. Eu donec at vel amet habitasse at, cursus bibendum hac.
+		
+		</div>
+	</body>
+</html>		

@@ -1,0 +1,14 @@
+/*Css Bootstrap4 */
+
+body{
+	background-color: #CCB885;
+}
+
+
+/*dimensionamento do carousel*/
+  /* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>	
+			  <meta charset="utf-8">
+			  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			  <!-- Bootastrap -->
+			  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+			  <script src="./jquery/jquery-3.6.0.min.js"></script>
+			  <script src="./node_modules/popper.js/dist/popper.js"></script>
+			  <script src="./js/bootstrap.min.js"></script>
+			  <!-- Bootastrap personalizando-->
+			  <link rel="stylesheet" href="./css/style.css" />
+			  <title>Imagens!</title>
+	</head>
+	<body>
+		<div class="container">
+		<!-- Navbar start-->
+		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #1376D5;">
+				  <a class="navbar-brand" href="#">Navbar com texto</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="textoNavbar">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="tables.html">Tables</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="imagens.html">Images</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="jumbotron.html">Jumbotron</a>
+				      </li>				      
+				    </ul>
+				    <span class="navbar-text">
+				      Texto navbar com um elemento inline
+				    </span>
+				  </div>
+		</nav>
+		<!-- Navbar stop -->
+		<div class="container">
+			<h1>Centered Image</h1>
+			<p>Class .mx-auto</p>
+			<div>
+			<img class="mx-auto d-block rounded-circle" src="./Imagens/sea-g2130915a0_640.jpg" alt="Apicando a classe rounded-circle mx-auto e d-bock à imagem da baleia">
+			<h1>Rounded Corners</h1>
+			<p>Class .rounded</p>
+			<img class="rounded" src="./Imagens/sea-g2130915a0_640.jpg" alt="Apicando a classe rounded à imagem da baleia">	
+			<h1>Rounded Circle</h1>
+			<p>Class .rounded-circle</p>
+			<img class="rounded-circle" src="./Imagens/sea-g2130915a0_640.jpg" alt="Apicando a classe rounded-circle à imagem da baleia">
+			<h1>Align Images left right</h1>
+			<p>Class .float-left and float-right</p>
+			<div>
+			 <img src="./Imagens/sea-g2130915a0_640.jpg" class="float-left" width="480px;" height="309px;">
+			<img src="./Imagens/ocean-g71c161a40_640.jpg" class="float-right"  width="480px;" height="309px;"> 
+			</div>
+
+			<h1>Rounded Thumbnail</h1>
+			<p>Class .img-thumbnail</p>
+			<img class="img-thumbnail" src="./Imagens/sea-g2130915a0_640.jpg" alt="Apicando a classe img-thumbnail à imagem da baleia">				
+			</div>
+			<h1>Responsive image</h1>
+			<p>The .img-fluid class applies max-width: 100%; and height: auto;</p>
+			<img class="img-fluid" src="./Imagens/sea-g2130915a0_640.jpg" alt="Apicando a classe img-fluid à imagem da baleia">				
+			</div>					
+		</div>
+	</body>
+</html>
