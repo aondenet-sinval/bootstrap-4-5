@@ -4,17 +4,17 @@
 			  <meta charset="utf-8">
 			  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 			  <!-- Bootastrap -->
-			  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
-			  <script src="./jquery/jquery-3.6.0.min.js"></script>
-			  <script src="./node_modules/popper.js/dist/popper.js"></script>
-			  <script src="./node_modules/popper.js/dist/popper.min.js"></script>
-			  <script src="./js/bootstrap.min.js"></script>
+			  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+			  <script src="../jquery/jquery-3.6.0.min.js"></script>
+			  <script src="../node_modules/popper.js/dist/popper.js"></script>
+			  <script src="../node_modules/popper.js/dist/popper.min.js"></script>
+			  <script src="../js/bootstrap.min.js"></script>
 <!--	Descomente se for testar o dropdown group		  -->
 <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
 <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>-->
 <!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
 			  <!-- Bootastrap personalizando-->
-			  <link rel="stylesheet" href="./css/style.css" />
+			  <link rel="stylesheet" href="../css/style.css" />
 			  <title>Buttons e Buttons Groups!</title>
 	</head>
 	<body>
@@ -150,6 +150,20 @@
 		<div class="container">
 		Lorem ipsum dolor sit amet, consecteteur adipiscing elit neque parturient eleifend etiam metus vehicula. Nascetur etiam quisque interdum donec id ridiculus natoque, cursus sem aliquam mi, nam ullamcorper rhoncus suspendisse. Arcu facilisi cum ad urna lorem hac lobortis magna. Ve consectetuer ligula, etiam sodales, eni tristique maecenas, massa. Sapien, sodales diam dolor. Cubilia. Fusce nisi purus, eleifend, sed litora a, dictumst. Auctor at tempor orci, duis. Quis nostra est, tortor, mi, ligula sollicitudin ridiculus. Eu donec at vel amet habitasse at, cursus bibendum hac.
 		
+		</div>
+		<div class="container">
+			<h1>Button Groups lado a lado:</h1>
+			<div class="btn-group">
+			  <button type="button" class="btn btn-primary">Apple</button>
+			  <button type="button" class="btn btn-primary">Samsung</button>
+			  <button type="button" class="btn btn-primary">Sony</button>
+			</div>
+			
+			<div class="btn-group">
+			  <button type="button" class="btn btn-primary">BMW</button>
+			  <button type="button" class="btn btn-primary">Mercedes</button>
+			  <button type="button" class="btn btn-primary">Volvo</button>
+			</div> 
 		</div>
 	</body>
 </html>		

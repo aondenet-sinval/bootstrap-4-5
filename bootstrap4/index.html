@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>	
+			  <meta charset="utf-8">
+			  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			  <!-- Bootastrap -->
+			  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+			  <script src="../jquery/jquery-3.6.0.min.js"></script>
+			  <script src="../node_modules/popper.js/dist/popper.js"></script>
+			  <script src="../js/bootstrap.min.js"></script>
+			  <!-- Bootastrap personalizando-->
+			  <link rel="stylesheet" href="../css/style.css" />
+			  <title>Bootstrap Carousel!</title>
+	</head>
+	<body>
+		<div class="container">
+		<!-- Navbar start-->
+		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #1376D5;">
+				  <a class="navbar-brand" href="#">Navbar com texto</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="textoNavbar">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="tables.html">Tables</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="imagens.html">Images</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="jumbotron.html">Jumbotron</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="buttons-groups.html">Buttons</a>
+				      </li>				      
+				      <li class="nav-item">
+				        <a class="nav-link" href="grid.html">Grid</a>
+				      </li>		
+				    </ul>
+				    <span class="navbar-text">
+				      Texto navbar com um elemento inline
+				    </span>
+				  </div>
+		</nav>
+		<!-- Navbar stop -->
+		<!--Carousel start-->			
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					  <ul class="carousel-indicators">
+					    <li data-target="#demo" data-slide-to="0" class="active"></li>
+					    <li data-target="#demo" data-slide-to="1"></li>
+					    <li data-target="#demo" data-slide-to="2"></li>
+					  </ul>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img src="../Imagens/sanduiches2.png" alt="Hot Dog"  width="1100" height="500">
+					      <div class="carousel-caption">
+					        <h3>Los Angeles</h3>
+					        <p>We had such a great time in LA!</p>
+					      </div>   
+					    </div>
+					    <div class="carousel-item">
+					      <img src="../Imagens/sanduiches2.png" alt="Hot Dog"  width="1100" height="500">
+					      <div class="carousel-caption">
+					        <h3>Chicago</h3>
+					        <p>Thank you, Chicago!</p>
+					      </div>   
+					    </div>
+					    <div class="carousel-item">
+					      <img src="../Imagens/sanduiches2.png" alt="Hot Dog"  width="1100" height="500">
+					      <div class="carousel-caption">
+					        <h3>New York</h3>
+					        <p>We love the Big Apple!</p>
+					      </div>   
+					    </div>
+					  </div>
+					  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+					    <span class="carousel-control-prev-icon"></span>
+					  </a>
+					  <a class="carousel-control-next" href="#demo" data-slide="next">
+					    <span class="carousel-control-next-icon"></span>
+					  </a>
+		</div>
+		<!--Carousel stop-->
+		<!-- Section grid start-->
+		<div class="container" style="background-color: #BFBFBF;">
+				<h1>Grid:</h1>
+						<div class="row">
+						  <div class="col">.col</div>
+						  <div class="col">.col</div>
+						  <div class="col">.col</div>
+						</div> 
+						<div class="row">
+						  <div class="col-sm-4" style="background-color: #BFBFBF;">.col-sm-4</div>
+						  <div class="col-sm-8" style="background-color: #D2B6B6;">.col-sm-8</div>
+						</div> 
+		</div>
+		<!-- Section grid stop-->
+		<!-- Typografy start-->
+		<div style="background-color: #D8CCCC;"> 
+		<h1>Text/typografy:</h1>
+				<p>
+						<h1>Esse é um parágrafo...h1</h1>
+						<h2>Esse é um parágrafo...h2</h2>
+						<h3>Esse é um parágrafo...h3</h3>
+						<h4>Esse é um parágrafo...h4</h4>
+						<h5>Esse é um parágrafo...h5</h5>
+						<h6>Esse é um parágrafo...h6</h6>
+				</p>
+		<h5>Display:</h5>
+				<h1><span class="display-1">Display 1</span></h1>
+				<h1><span class="display-2">Display 2</span></h1>
+				<h1><span class="display-3">Display 3</span></h1>
+				<h1><span class="display-4">Display 4</span></h1>
+				<h1><h4>Use this small element:</h4>
+				<p>
+						<h1>Esse é <small>um</small> parágrafo...h1</h1>
+						<h2>Esse é <small>um</small> parágrafo...h2</h2>
+						<h3>Esse é <small>um</small> parágrafo...h3</h3>
+						<h4>Esse é <small>um</small> parágrafo...h4</h4>
+						<h5>Esse é <small>um</small> parágrafo...h5</h5>
+						<h6>Esse é <small>um</small> parágrafo...h6</h6>
+				</p>
+				<h4>Use this abbr element  dotted bottom:</h4>
+				<p>
+						<h1>Esse é <abbr title="JW Broadcast">JB</abbr> (JW Broadcast)</h1>
+				</p>
+				<h4>Use this mark element:</h4>
+				<p>
+						<h1>Esse é <mark>um</mark> parágrafo...h1</h1>
+						<h2>Esse é <mark>um</mark> parágrafo...h2</h2>
+						<h3>Esse é <mark>um</mark> parágrafo...h3</h3>
+						<h4>Esse é <mark>um</mark> parágrafo...h4</h4>
+						<h5>Esse é <mark>um</mark> parágrafo...h5</h5>
+						<h6>Esse é <mark>um</mark> parágrafo...h6</h6>
+				</p>
+				<h4>class blockquote element:</h4>
+				<div>
+						<p class="blockquote">
+						Usando blockquote aqui...
+						</p>
+						<p class="blockquote-footer">
+						Usando blockquote-footer aqui...
+						</p>
+				</div>
+		
+					  <h1>Description Lists and lists content with dl, dt and dd</h1>    
+					  <p>The dl element indicates a description list:</p>
+					  <dl>
+					    <dt>Coffee</dt>
+					    <dd>- black hot drink</dd>
+					    <dt>Milk</dt>
+					    <dd>- white cold drink</dd>
+					  </dl> 
+					   <h1>Code Snippets</h1>
+					  <p>Inline snippets of code should be embedded in the code element:</p>
+					  <p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a document.</p>
+					    <h1>Keyboard Inputs (kbd)</h1>
+						  <p>To indicate input that is typically entered via the keyboard, use the kbd element:</p>
+						  <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p> 
+						  <h1>Multiple Code Lines</h1>
+							<p>For multiple lines of code, use the 'pre' element:</p>
+							<pre>
+							Text in a pre element
+							is displayed in a fixed-width
+							font, and it preserves
+							both      spaces and
+							line breaks.
+							</pre>
+							<h1>Usando a classe .list-inline:</h1>
+							<ul class="list-inline">
+								    <li class="list-inline-item">Coffee</li>
+								    <li class="list-inline-item">Tea</li>
+								    <li class="list-inline-item">Milk</li>
+						   </ul>
+						   <h1>Classes para cores de textos:</h1>
+						   <pre>
+									<span class="text-danger">As classes para textos são:</span> 							   
+								   .text-muted, .text-primary, .text-success,
+								   .text-info, .text-warning, .text-danger, 
+								   .text-secondary, .text-white, .text-dark, 
+								   .text-body (padrão body color/often black) e .text-light.
+						   
+						   </pre>   
+							</div>      <!--Typografy end-->
+		<!-- background colors start	-->
+		<div style="background-color: #BFBFBF;">
+		<h1>Background-color:</h1>
+		<pre>
+		As classes para cores de background são:
+		.bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, 
+		.bg-secondary, .bg-dark and .bg-light.
+		Mas podemos personalizar as cores:
+		<h1 style="background-color: #6B046B;">VIOLET</h1>
+		</pre>		
+		</div>
+		<!-- background colors stop	-->							
+		
+		</div>
+
+		<script type="text/javascript" >
+			$('.carousel').carousel({
+			  interval: 2000
+			})
+		</script>
+	</body>
+</html>

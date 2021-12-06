@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>	
+			  <meta charset="utf-8">
+			  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			  <!-- Bootastrap -->
+			  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+			  <script src="../jquery/jquery-3.6.0.min.js"></script>
+			  <script src="../node_modules/popper.js/dist/popper.js"></script>
+			  <script src="../js/bootstrap.min.js"></script>
+			  <!-- Bootastrap personalizando-->
+			  <link rel="stylesheet" href="../css/style.css" />
+			  <title>Bootstrap Jumbotron e alert!</title>
+	</head>
+	<body>
+		<div class="container">
+		<!-- Navbar start-->
+		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #1376D5;">
+				  <a class="navbar-brand" href="#">Navbar com texto</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="textoNavbar">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="tables.html">Tables</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="imagens.html">Images</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="jumbotron.html">Jumbotron</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="buttons-groups.html">Buttons</a>
+				      </li>				      
+				    </ul>
+				    <span class="navbar-text">
+				      Texto navbar com um elemento inline
+				    </span>
+				  </div>
+		</nav>
+		<!-- Navbar stop -->
+		<div class="jumbotron">
+		  <h1>Bootstrap Jumbotron</h1>
+		  <p>Bootstrap facilita o trabalho web e diminui a digitação de códigos</p>
+		</div>
+		<div>
+		<ul>
+		<li>Menos codificação...</li>
+		<li>Menos dor de cabeça para ajeitar o layout...</li>
+		<li>Mais produtividade web...</li>
+		</ul>
+		</div>
+		<div class="container">
+			<div class="jumbotron jumbotron-fluid">
+			  <h1>Bootstrap Jumbotron</h1>
+			  <p>Se você quiser um jumbotron de largura total sem bordas arredondadas, adicione a classe .jumbotron-fluid a ele.
+			  </p>
+			</div>
+		</div>
+		<div class="jumbotron jumbotron-fluid">
+		  <div class="container">
+		    <h1>Bootstrap Jumbotron</h1>
+		    <p>Se você quiser um jumbotron de largura total sem bordas arredondadas adicione a classe .container dentro de uma classe .jumbotron-fluid</p>
+		  </div>
+		</div>
+		<div class="container">
+		  <h2>Alerts</h2>
+		  <p>Classes:</p>
+		  <div class="alert alert-success">
+		    <strong>Success!</strong> Esta caixa de alerta pode indicar uma ação bem-sucedida ou positiva.
+		  </div>
+		  <div class="alert alert-info">
+		    <strong>Info!</strong> Esta caixa de alerta pode indicar uma mudança ou ação informativa neutra.
+		  </div>
+		  <div class="alert alert-warning">
+		    <strong>Warning!</strong> Esta caixa de alerta pode indicar um aviso que pode precisar de atenção.
+		  </div>  
+		  <div class="alert alert-danger">
+		    <strong>Danger!</strong> Esta caixa de alerta pode indicar uma ação perigosa ou potencialmente negativa.
+		  </div>
+		  <div class="alert alert-primary">
+		    <strong>Primary!</strong> Indica uma ação importante.
+		  </div>
+		  <div class="alert alert-secondary">
+		    <strong>Secondary!</strong> Indica uma ação um pouco menos importante.
+		  </div><strike></strike>
+		  <div class="alert alert-dark">
+		    <strong>Dark!</strong> Alerta cinza escuro.
+		  </div>
+		  <div class="alert alert-light">
+		    <strong>Light!</strong> Alerta cinza claro.
+		  </div>
+		  <h2>Alert Links:</h2>
+		  <div class="alert alert-success">
+			  <strong>Success!</strong> Você deve <a href="#" class="alert-link">ler essa mensagem</a>.
+		  </div>
+		  <h2>Close Alerts:</h2>
+		  <p>Escreva uma mensagem que poderá ser fechada pelo usuário.</p>
+		  <div class="alert alert-success alert-dismissible">
+			  <button type="button" class="close" data-dismiss="alert">&times;</button>
+			  <strong>Success!</strong> Indica sucesso ou ação positiva.
+		  </div>
+		</div>		
+	</body>
+</html>
